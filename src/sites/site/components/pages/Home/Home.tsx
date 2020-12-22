@@ -1,6 +1,5 @@
 import React from "react";
 
-import { THEME_TYPES } from "../../../../../store/actions/theme";
 import ModulesList from "../../../../imageRepository/containers/lists/ModulesList/ModulesList";
 import Card from "../../reusable/Card/Card";
 

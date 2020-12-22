@@ -1,14 +1,14 @@
 $themes: (
-    light: (
+    fanimage: (
         // Alert
         AlertDangerBackgroundColor: #e05454,
         AlertSuccessBackgroundColor: #38B49D,
         AlertWarnBackgroundColor: #ffff89,
 
         // Border 
-        BorderPrimaryColor: black,
-        BorderSecondaryColor: #38B49D,
-        BorderAlternativeColor: #5e5e5e,
+        BorderPrimaryColor: #fff,
+        BorderSecondaryColor: #fff,
+        BorderAlternativeColor: #fff,
 
         BorderWidth: 1px,
         BorderStyle: solid,
@@ -17,7 +17,7 @@ $themes: (
         // Button
         ButtonPrimaryTextColor: #fff,
         ButtonSecondaryTextColor: #dbdbdb,
-        ButtonAlternativeTextColor: #949494,
+        ButtonAlternativeTextColor: #fff,
 
         ButtonPrimaryBackgroundColor: #38B49D,
         ButtonSecondaryBackgroundColor: white,
@@ -71,8 +71,8 @@ $themes: (
 
         // Text
         TextPrimaryColor: #fff,
-        TextSecondaryColor: #38B49D,
-        TextAlternativeColor: #a1a1a1,        
+        TextSecondaryColor: #fff,
+        TextAlternativeColor: #fff,        
         TextImportantColor: red,        
         
     ),

@@ -1,0 +1,39 @@
+// Button appears to float
+.float {
+    @include float();
+}
+
+// Lumaki-colored blobs
+.blob {
+    position: absolute;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    button {
+        padding: .5rem;
+        margin: 0;
+    }
+}
+
+.asterisk {
+    color: red;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.emoji-raised {
+    display: inline-block;
+    transform: translateY(-3px);
+}
+
+.hidden {
+    visibility: hidden;
+}

@@ -1,0 +1,84 @@
+$themes: (
+    light: (
+        
+    ),
+    
+    dark: (    
+        // Alert
+        AlertDangerBackgroundColor: #e05454,
+        AlertSuccessBackgroundColor: #38B49D,
+        AlertWarnBackgroundColor: #ffff89,
+
+        // Border 
+        BorderPrimaryColor: #FFFFFF,
+        BorderSecondaryColor: #38B49D,
+        BorderAlternativeColor: #5e5e5e,
+
+        BorderWidth: 1px,
+        BorderStyle: solid,
+        BorderAlternativeStyle: dotted,
+        
+        // Button
+        ButtonPrimaryTextColor: #fff,
+        ButtonSecondaryTextColor: #38B49D,
+        ButtonAlternativeTextColor: #949494,
+
+        ButtonPrimaryBackgroundColor: #38B49D,
+        ButtonSecondaryBackgroundColor: #353535,
+        ButtonAlternativeBackgroundColor: #303030,
+
+        ButtonHoverPrimaryTextColor: #fff,
+        ButtonHoverSecondaryTextColor: #38B49D,
+        ButtonHoverAlternativeTextColor: #3f3f3f,
+
+        ButtonPrimaryBorderColor: #38B49D,
+        ButtonSecondaryBorderColor: #38B49D,
+        ButtonAlternativeBorderColor: #303030,
+        ButtonBorderWidth: 1px,
+        ButtonBorderStyle: solid,
+        ButtonBorderAlternativeStyle: dotted,
+
+        // Card
+        CardPrimaryBackgroundColor: #353535,
+        CardSecondaryBackgroundColor: #3c3c3c,
+        CardAlternativeBackgroundColor: #464646,
+        CardTertiaryBackgroundColor: #626262,
+        
+        // Input
+        InputPrimaryBackgroundColor: #C4C4C4,
+        InputSecondaryBackgroundColor: #0000ff,
+        InputAlternativeBackgroundColor: #0000ff,
+
+        InputPrimaryTextColor: #000000,
+        InputSecondaryTextColor: #0000ff,
+        InputAlternativeTextColor: #0000ff,
+
+        InputPrimaryPlaceholerTextColor: #C4C4C4,
+        InputSecondaryPlaceholerTextColor: #0000ff,
+        InputAlternativePlaceholerTextColor: #0000ff,
+
+        // Navbar
+        NavBackgroundColor: #1C1C1C,
+
+        // Select Input
+        SelectPrimaryBackgroundColor: #C4C4C4,
+        SelectSecondaryBackgroundColor: #0000ff,
+        SelectAlternativeBackgroundColor: #0000ff,
+        
+        SelectDropdownPrimaryBackgroundColor: #C4C4C4,
+        SelectDropdownSecondaryBackgroundColor: #0000ff,
+        SelectDropdownAlternativeBackgroundColor: #0000ff,
+        
+        // Site
+        SitePrimaryBackgroundColor: #313030,
+        SiteSecondaryBackgroundColor: #0000ff,
+        SiteGradientDarkBackgroundColor: #1C1C1C,
+        SiteGradientLightBackgroundColor: #464646,
+
+        // Text
+        TextPrimaryColor: #fff,
+        TextSecondaryColor: #38B49D,
+        TextAlternativeColor: #a1a1a1,        
+        TextImportantColor: red,        
+    ),
+);

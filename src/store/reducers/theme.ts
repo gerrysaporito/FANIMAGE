@@ -7,7 +7,7 @@ export interface IThemeState {
 }
 
 const DEFAULT_STATE: IThemeState = {
-    type: THEME_TYPES.DARK.toString(),
+    type: THEME_TYPES.LIGHT.toString(),
 };
 
 const theme = (state: IThemeState = DEFAULT_STATE, action: IAction<IThemePayload>): IThemeState => {

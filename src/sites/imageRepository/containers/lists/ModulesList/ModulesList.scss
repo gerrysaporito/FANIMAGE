@@ -11,7 +11,8 @@
         height: 100%;
 
         @include themify() {
-            color: themed("TextAlternativeColor");
+            color: themed("");
+            color: red !important;
         }; 
     
         button {
@@ -25,12 +26,12 @@
             
             @include flexbox($justify: "center", $align: "center");    
             @include themify() {
-                color: themed("TextAlternativeColor");
+                color: themed("ButtonPrimaryTextColor");
             }; 
 
             &:hover {
                 @include themify() {
-                    color: themed("ButtonPrimaryTextColor");
+                    color: themed("ButtonSecondaryTextColor");
                 };     
             }    
         }

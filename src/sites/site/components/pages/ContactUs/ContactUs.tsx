@@ -16,8 +16,6 @@ const ContactUs: React.FunctionComponent<IContactUsComponentProps> = (props: ICo
         <section className="contact-us">
             <div className="contact-us--assets">
                 <h1 className="contact-us--header">Get In Touch</h1>
-                {/* <img className="contact-us--image-asset" src={image} alt="Person standing next to speech bubbles" /> */}
-                {/* <img className="contact-us--blob" src={BLOB_1} alt="Green blob" /> */}
             </div>
             <div className="contact-us--form">
                 <div className="form--card-width">

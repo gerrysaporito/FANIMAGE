@@ -5,7 +5,6 @@ import { NAVBAR_ROUTES } from "../Routes/navbarRoutes";
 import { SITE_ROUTES } from "../Routes/routes";
 import { IRoute } from "../../../../../common/variables/routes";
 
-// import LOGO from "../../../../../common/images/logos/lumakilabs__whiteLogo--big.png";
 import { GenerateTabs } from "./GenerateTabs";
 import NavbarHooks from "./NavbarHooks";
 
@@ -44,7 +43,6 @@ const Navbar: React.FunctionComponent = (): React.ReactElement => {
             <div className="navbar-header">
                 <NavLink to={SITE_ROUTES.home.route} className="navbar-brand">
                     FANIMAGE
-                    {/* <img src={LOGO} alt="LumakiBoard Logo" /> */}
                 </NavLink>
             </div>
             {/* @ts-ignore */}

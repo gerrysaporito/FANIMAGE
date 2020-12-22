@@ -5,7 +5,7 @@
     },
     "proxies": {
         "/api": {
-            "origin": "https://lumakilabs-server.herokuapp.com/api"
+            "origin": "https://fanimage-server.herokuapp.com/api"
         }
     }
 }

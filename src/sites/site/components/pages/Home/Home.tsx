@@ -5,7 +5,7 @@ import ModulesList from "../../../../imageRepository/containers/lists/ModulesLis
 import Card from "../../reusable/Card/Card";
 
 const Home: React.FunctionComponent = () => {
-    const title = "Your favourite fan-made anime images."
+    const title = "Your favourite fan-made anime and shiba inu images."
     const subTitle = "Made by the community, for the community."
 
     return (

@@ -54,7 +54,7 @@ export const createModuleForOrganization = (moduleInfo: unknown): any => {
     };
 };
 
-export const editModuleForOrganization = (moduleId: string, moduleInfo: unknown): any => {
+export const editModuleByModuleId = (moduleId: string, moduleInfo: unknown): any => {
 
     return (dispatch: TDispatchType, getState: () => IRootState) => {
         const { userState } = getState();
@@ -66,7 +66,7 @@ export const editModuleForOrganization = (moduleId: string, moduleInfo: unknown)
 
         const { userInfo } = userState;
 
-        const endpoint = `/api/image-repository/v1/module/edit?userId=${userInfo.id}`;
+        const endpoint = `/api/image-repository/v1/module/edit?userId=${userInfo.id}&moduleId=${moduleId}`;
 
         return apiCall(HTTP_REQUEST.POST, endpoint, {
             moduleId,
@@ -109,7 +109,7 @@ export const getModuleByModuleId = (moduleId: string): any => {
     };
 };
 
-export const removeModuleFromUser = (moduleId: string | number): any => {
+export const removeModuleByModuleId = (moduleId: string | number): any => {
 
     return (dispatch: TDispatchType, getState: () => IRootState) => {
         const { userState } = getState();
@@ -121,7 +121,7 @@ export const removeModuleFromUser = (moduleId: string | number): any => {
 
         const { userInfo } = userState;
 
-        const endpoint = `/api/image-repository/v1/module/delete?userId=${userInfo.id}`;
+        const endpoint = `/api/image-repository/v1/module/delete?userId=${userInfo.id}&moduleId=${moduleId}`;
 
         return apiCall(HTTP_REQUEST.POST, endpoint, {
             moduleId

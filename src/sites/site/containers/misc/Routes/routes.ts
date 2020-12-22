@@ -4,10 +4,10 @@ export const SITE_ROUTES: IRouteObject = {
     contactUs: {
         route: `/contact/us`,
         name: "CONTACT",
-        description: "Email Form to contact Lumaki Labs."
+        description: "Email Form to contact FANIMAGE."
     },
     home: {
-        route: `/hello`,
+        route: `/flying-nimbus`,
         name: "HOME",
         description: "Root directory of site."
     },

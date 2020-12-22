@@ -11,7 +11,7 @@ const Register: React.FunctionComponent = () => {
             <div className="form--card-width">
                 <Card float>
                     <div className="register__card">
-                        <h2>Welcome to cloud 9.</h2>
+                        <h2>Ride the flying nimbus with us.</h2>
                         <UserRegisterForm />
                     </div>
                 </Card>

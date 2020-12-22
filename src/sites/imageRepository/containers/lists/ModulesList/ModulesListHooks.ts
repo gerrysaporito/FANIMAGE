@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { addAlert, ALERT_TYPES } from "../../../../../store/actions/alert";
-import { getModulesFromOrganization, removeModuleFromUser } from "../../../../../store/dispatches/imageRepository/module";
+import { getModulesFromOrganization, removeModuleByModuleId } from "../../../../../store/dispatches/imageRepository/module";
 import { IRootState } from "../../../../../store/reducers";
 import { SITE_ROUTES } from "../../../../site/containers/misc/Routes/routes";
 
@@ -64,7 +64,7 @@ const ModulesListHooks = () => {
     };
 
     const handleRemoveModule = async function (moduleId: string | number) {
-        const modulesListResp: any = await dispatch(removeModuleFromUser(moduleId));
+        const modulesListResp: any = await dispatch(removeModuleByModuleId(moduleId));
 
         if (modulesListResp) {
             await setState((componentState: any) => ({

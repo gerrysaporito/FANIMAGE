@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addAlert, ALERT_TYPES } from "../../../../../../store/actions/alert";
 
-import { createModuleForOrganization, editModuleForOrganization } from "../../../../../../store/dispatches/imageRepository/module";
+import { createModuleForOrganization, editModuleByModuleId } from "../../../../../../store/dispatches/imageRepository/module";
 import { IRootState } from "../../../../../../store/reducers";
 import { IModulesListItemFormComponentProps } from "./ModulesListItemForm";
 
@@ -80,7 +80,7 @@ const ModulesListItemFormHooks = (props: IModulesListItemFormComponentProps) => 
     const handleEditSubmit = (moduleId: string) => async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-        await dispatch(editModuleForOrganization(moduleId, componentState));
+        await dispatch(editModuleByModuleId(moduleId, componentState));
 
         props.handleFormStateChange();
         props.handleListStateChange();

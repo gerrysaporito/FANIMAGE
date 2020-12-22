@@ -9,7 +9,6 @@ export type TThemeDispatchType = (args: IAction<IThemePayload>) => IAction<IThem
 export enum THEME_TYPES {
     DARK = "dark",
     LIGHT = "light",
-    LUMAKI = "lumaki"
 }
 
 export const setTheme = (type: string): IAction<IThemePayload> => ({

@@ -11,28 +11,26 @@ const GeneralContactForm: React.FunctionComponent<IGeneralContactFormComponentPr
     const { email, message } = componentState;
 
     return (
-        <div className="employer-register-redirect-form" >
-            <form className="form" onSubmit={handleSubmit}>
-                <div className="register__form">
-                    <div className="register__card__inputs">
+        <form className="form" onSubmit={handleSubmit}>
+            <div className="register__form">
+                <div className="register__card__inputs">
 
-                        {/* Email */}
-                        <label htmlFor="email">Email <span className="asterisk">*</span></label>
-                        <input id="email" name="email" onChange={handleInputChange} value={email || ""} type="text" placeholder="Email" />
+                    {/* Email */}
+                    <label htmlFor="email">Email <span className="asterisk">*</span></label>
+                    <input id="email" name="email" onChange={handleInputChange} value={email || ""} type="text" placeholder="Email" />
 
-                        {/* Message */}
-                        <label htmlFor="name">Type your message here <span className="asterisk">*</span></label>
-                        <textarea id="message" name="message" onChange={handleTextareaChange} value={message || ""} placeholder="Hi I want to learn more about..." />
+                    {/* Message */}
+                    <label htmlFor="name">Type your message here <span className="asterisk">*</span></label>
+                    <textarea id="message" name="message" onChange={handleTextareaChange} value={message || ""} placeholder="Hi I want to learn more about..." />
 
-                    </div>
-                    <div className="register__card__button">
-                        <span className="button button--large button--primary">
-                            <button type="submit">Submit</button>
-                        </span>
-                    </div>
                 </div>
-            </form>
-        </div>
+                <div className="register__card__button">
+                    <span className="button button--large button--primary">
+                        <button type="submit">Submit</button>
+                    </span>
+                </div>
+            </div>
+        </form>
     );
 };
 

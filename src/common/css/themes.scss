@@ -156,23 +156,23 @@ $themes: (
         TextImportantColor: red,        
     ),
 
-    LIGHT: (    
+    GRAYSCALE: (    
         // Alert
         AlertDangerBackgroundColor: #e05454,
         AlertSuccessBackgroundColor: #38B49D,
         AlertWarnBackgroundColor: #ffff89,
 
         // Border 
-        BorderPrimaryColor: #FFFFFF,
+        BorderPrimaryColor: #000000,
         BorderSecondaryColor: #38B49D,
-        BorderAlternativeColor: #5e5e5e,
+        BorderAlternativeColor: #000000,
 
         BorderWidth: 1px,
         BorderStyle: solid,
         BorderAlternativeStyle: dotted,
         
         // Button
-        ButtonPrimaryTextColor: #fff,
+        ButtonPrimaryTextColor: #000,
         ButtonSecondaryTextColor: #38B49D,
         ButtonAlternativeTextColor: #949494,
 
@@ -192,7 +192,7 @@ $themes: (
         ButtonBorderAlternativeStyle: dotted,
 
         // Card
-        CardPrimaryBackgroundColor: #353535,
+        CardPrimaryBackgroundColor: #e6e6e6,
         CardSecondaryBackgroundColor: #3c3c3c,
         CardAlternativeBackgroundColor: #464646,
         CardTertiaryBackgroundColor: #626262,
@@ -211,7 +211,7 @@ $themes: (
         InputAlternativePlaceholerTextColor: #0000ff,
 
         // Navbar
-        NavBackgroundColor: #1C1C1C,
+        NavBackgroundColor: #949494,
 
         // Select Input
         SelectPrimaryBackgroundColor: #C4C4C4,
@@ -223,14 +223,14 @@ $themes: (
         SelectDropdownAlternativeBackgroundColor: #0000ff,
         
         // Site
-        SitePrimaryBackgroundColor: #313030,
+        SitePrimaryBackgroundColor: #fff,
         SiteSecondaryBackgroundColor: #0000ff,
         SiteGradientDarkBackgroundColor: #1C1C1C,
         SiteGradientLightBackgroundColor: #464646,
 
         // Text
-        TextPrimaryColor: #fff,
-        TextSecondaryColor: #38B49D,
+        TextPrimaryColor: rgb(0, 0, 0),
+        TextSecondaryColor: rgb(39, 39, 39),
         TextAlternativeColor: #a1a1a1,        
         TextImportantColor: red,        
     ),

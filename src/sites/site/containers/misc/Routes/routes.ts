@@ -23,7 +23,7 @@ export const SITE_ROUTES: IRouteObject = {
     },
     register: {
         route: `/register`,
-        name: "SIGN UP",
+        name: "SIGNUP",
         description: "Log in a user."
     },
     root: {

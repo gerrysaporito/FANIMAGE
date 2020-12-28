@@ -41,7 +41,7 @@ const Navbar: React.FunctionComponent = (): React.ReactElement => {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg fixed-top">
+        <nav className="navbar navbar-expand-lg fixed-top float">
             <div className="navbar-header">
                 <NavLink to={SITE_ROUTES.home.route} className="navbar-brand">
                     FANIMAGE

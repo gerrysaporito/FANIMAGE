@@ -8,7 +8,7 @@ export type TThemeDispatchType = (args: IAction<IThemePayload>) => IAction<IThem
 
 export enum THEME_TYPES {
     RETRO = "RETRO",
-    LIGHT = "LIGHT",
+    GRAYSCALE = "GRAYSCALE",
     DARK = "DARK",
 }
 

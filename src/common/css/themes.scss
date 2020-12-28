@@ -1,5 +1,5 @@
 $themes: (
-    fanimage: (
+    RETRO: (
         // Alert
         AlertDangerBackgroundColor: #e05454,
         AlertSuccessBackgroundColor: #38B49D,
@@ -21,7 +21,7 @@ $themes: (
 
         ButtonPrimaryBackgroundColor: #38B49D,
         ButtonSecondaryBackgroundColor: white,
-        ButtonAlternativeBackgroundColor: #303030,
+        ButtonAlternativeBackgroundColor: #E8A87C,
 
         ButtonHoverPrimaryTextColor: #fff,
         ButtonHoverSecondaryTextColor: #38B49D,
@@ -77,7 +77,86 @@ $themes: (
         
     ),
     
-    dark: (    
+    DARK: (    
+        // Alert
+        AlertDangerBackgroundColor: #e05454,
+        AlertSuccessBackgroundColor: #38B49D,
+        AlertWarnBackgroundColor: #ffff89,
+
+        // Border 
+        BorderPrimaryColor: #FFFFFF,
+        BorderSecondaryColor: #38B49D,
+        BorderAlternativeColor: #5e5e5e,
+
+        BorderWidth: 1px,
+        BorderStyle: solid,
+        BorderAlternativeStyle: dotted,
+        
+        // Button
+        ButtonPrimaryTextColor: #fff,
+        ButtonSecondaryTextColor: #38B49D,
+        ButtonAlternativeTextColor: #949494,
+
+        ButtonPrimaryBackgroundColor: #38B49D,
+        ButtonSecondaryBackgroundColor: #3f3d47,
+        ButtonAlternativeBackgroundColor: #2b2a31,
+
+        ButtonHoverPrimaryTextColor: #fff,
+        ButtonHoverSecondaryTextColor: #38B49D,
+        ButtonHoverAlternativeTextColor: #423e50,
+
+        ButtonPrimaryBorderColor: #38B49D,
+        ButtonSecondaryBorderColor: #38B49D,
+        ButtonAlternativeBorderColor: #303030,
+        ButtonBorderWidth: 1px,
+        ButtonBorderStyle: solid,
+        ButtonBorderAlternativeStyle: dotted,
+
+        // Card
+        CardPrimaryBackgroundColor: #35333a,
+        CardSecondaryBackgroundColor: #3e3c46,
+        CardAlternativeBackgroundColor: #414049,
+        CardTertiaryBackgroundColor: #5a5864,
+        
+        // Input
+        InputPrimaryBackgroundColor: #C4C4C4,
+        InputSecondaryBackgroundColor: #0000ff,
+        InputAlternativeBackgroundColor: #0000ff,
+
+        InputPrimaryTextColor: #000000,
+        InputSecondaryTextColor: #0000ff,
+        InputAlternativeTextColor: #0000ff,
+
+        InputPrimaryPlaceholerTextColor: #C4C4C4,
+        InputSecondaryPlaceholerTextColor: #0000ff,
+        InputAlternativePlaceholerTextColor: #0000ff,
+
+        // Navbar
+        NavBackgroundColor: #1f1f25,
+
+        // Select Input
+        SelectPrimaryBackgroundColor: #C4C4C4,
+        SelectSecondaryBackgroundColor: #0000ff,
+        SelectAlternativeBackgroundColor: #0000ff,
+        
+        SelectDropdownPrimaryBackgroundColor: #C4C4C4,
+        SelectDropdownSecondaryBackgroundColor: #0000ff,
+        SelectDropdownAlternativeBackgroundColor: #0000ff,
+        
+        // Site
+        SitePrimaryBackgroundColor: #29292e,
+        SiteSecondaryBackgroundColor: #0000ff,
+        SiteGradientDarkBackgroundColor: #1C1C1C,
+        SiteGradientLightBackgroundColor: #464646,
+
+        // Text
+        TextPrimaryColor: #fff,
+        TextSecondaryColor: #38B49D,
+        TextAlternativeColor: #a1a1a1,        
+        TextImportantColor: red,        
+    ),
+
+    LIGHT: (    
         // Alert
         AlertDangerBackgroundColor: #e05454,
         AlertSuccessBackgroundColor: #38B49D,

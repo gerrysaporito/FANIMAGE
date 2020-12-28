@@ -7,12 +7,14 @@ import { IRoute } from "../../../../../common/variables/routes";
 
 import { GenerateTabs } from "./GenerateTabs";
 import NavbarHooks from "./NavbarHooks";
+import { THEME_TYPES } from "../../../../../store/actions/theme";
 
 /*
  * Navbar used throughout site.
  */
 const Navbar: React.FunctionComponent = (): React.ReactElement => {
-    const { logoutUser, userState, } = NavbarHooks();
+    const { logoutUser, handleSelectChange, userState, componentState } = NavbarHooks();
+    const { theme } = componentState;
     const { userInfo, authenticated } = userState;
 
     let mainTabs: React.ReactElement[] = [];
@@ -55,6 +57,11 @@ const Navbar: React.FunctionComponent = (): React.ReactElement => {
                 </ul>
                 <ul className="navbar-nav ml-auto align-items-center">
                     {otherTabs}
+                    <form>
+                        <select required value={theme || ""} onChange={handleSelectChange} >
+                            {Object.values(THEME_TYPES).map((value: string) => <option key={value} value={value}>{value}</option>)}
+                        </select>
+                    </form>
                 </ul>
             </div>
         </nav>

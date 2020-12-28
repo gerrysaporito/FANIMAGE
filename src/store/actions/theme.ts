@@ -7,9 +7,9 @@ export interface IThemePayload {
 export type TThemeDispatchType = (args: IAction<IThemePayload>) => IAction<IThemePayload>;
 
 export enum THEME_TYPES {
-    DARK = "dark",
-    LIGHT = "light",
-    FANIMAGE = "fanimage"
+    RETRO = "RETRO",
+    LIGHT = "LIGHT",
+    DARK = "DARK",
 }
 
 export const setTheme = (type: string): IAction<IThemePayload> => ({

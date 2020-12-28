@@ -7,7 +7,7 @@ export interface IThemeState {
 }
 
 const DEFAULT_STATE: IThemeState = {
-    type: THEME_TYPES.FANIMAGE.toString(),
+    type: THEME_TYPES.RETRO.toString(),
 };
 
 const theme = (state: IThemeState = DEFAULT_STATE, action: IAction<IThemePayload>): IThemeState => {

@@ -48,8 +48,9 @@ export const authUser = (type: string, userData: unknown): any => {
             return apiCall(HTTP_REQUEST.POST, endpoint, userData)
                 .then((res: any) => {
                     localStorage.setItem("jwtToken", res.token);
-                    setAuthorizationToken(res.token);
+                    localStorage.setItem("theme", res.themeType);
 
+                    setAuthorizationToken(res.token);
                     dispatch(setCurrentUser(res.userInfo));
                     dispatch(setTheme(res.themeType || ""));
                     dispatch(removeAlert());

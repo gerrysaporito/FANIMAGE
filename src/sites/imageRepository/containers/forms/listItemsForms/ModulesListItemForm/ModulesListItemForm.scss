@@ -1,4 +1,6 @@
 .modules-list-item-form {
+    position: relative;
+
     @include flexbox($type: "column", $justify: "between");
 
     // Form inputs

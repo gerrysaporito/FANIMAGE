@@ -16,7 +16,7 @@ const App: React.FunctionComponent = (): React.ReactElement => {
     const routes = generateRoutes();
 
     return (
-        <div style={styles__theme} className={`theme--${themeState.type || THEME_TYPES.FANIMAGE}`}>
+        <div style={styles__theme} className={`theme--${themeState.type || THEME_TYPES.RETRO}`}>
             <div className="app">
                 <Navbar />
                 <div className="content">

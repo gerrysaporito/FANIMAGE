@@ -1,4 +1,3 @@
-// Button appears to float
 .float {
     @include float();
 }
@@ -20,4 +19,14 @@
 
 .hidden {
     visibility: hidden;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    button {
+        padding: 0;
+    }
 }

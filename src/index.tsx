@@ -20,7 +20,7 @@ if (localStorage.jwtToken) {
     try {
         const jwtTokenStorage = jwtDecode(localStorage.jwtToken) as Record<string, any>;
         store.dispatch(setCurrentUser(jwtTokenStorage.userInfo));
-        store.dispatch(setTheme(jwtTokenStorage.themeType || ""));
+        store.dispatch(setTheme(localStorage.theme || ""));
 
     } catch (err) {
         store.dispatch(setCurrentUser());

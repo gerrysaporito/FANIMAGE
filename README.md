@@ -1,4 +1,4 @@
-# Shopify Image Repository --  [fanimage.net](http://fanimage.net)
+# Shopify Image Repository --  [fanimage.net](http://fanimage.net) (Currently down due to AWS costs)
 
 ### CHALLENGE
 The task was to build an image repository api. It was an open ended task, restricted to nothing but imagination. The goal was to create an api that allows users to add, remove, and view images.
